@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FFF8E7;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+h1, h2, h3 {
+  font-family: 'Fredoka', 'Comic Sans MS', cursive, sans-serif;
+}
+
+button {
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+}
+
+input {
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+}
+
+/* Prevent text selection on buttons for mobile */
+button {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Safe area for iPhone notch */
+@supports (padding: env(safe-area-inset-bottom)) {
+  body {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
