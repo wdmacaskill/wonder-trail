@@ -1,0 +1,37 @@
+{
+  "monsters": {
+    "space": "monster-space.jpg",
+    "biology": "monster-biology.jpg",
+    "brain": "monster-brain.jpg",
+    "physics": "monster-physics.jpg",
+    "history": "monster-history.jpg",
+    "human-nature": "monster-human-nature.jpg",
+    "maths": "monster-maths.jpg",
+    "cs-ai": "monster-cs-ai.jpg",
+    "economics": "monster-economics.jpg",
+    "philosophy": "monster-philosophy.jpg",
+    "psychedelics": "monster-psychedelics.jpg"
+  },
+  "bosses": {
+    "space": "boss-space.jpg",
+    "biology": "boss-biology.jpg",
+    "brain": "boss-brain.jpg",
+    "physics": "boss-physics.jpg",
+    "history": "boss-history.jpg",
+    "human-nature": "boss-human-nature.jpg",
+    "maths": "boss-maths.jpg",
+    "cs-ai": "boss-cs-ai.jpg",
+    "economics": "boss-economics.jpg",
+    "philosophy": "boss-philosophy.jpg",
+    "psychedelics": "boss-psychedelics.jpg"
+  },
+  "hero": "hero-home.jpg",
+  "den": "den-room.jpg",
+  "battle": {
+    "meadow": "battle-meadow.jpg",
+    "forest": "battle-forest.jpg",
+    "mountain": "battle-mountain.jpg",
+    "peak": "battle-peak.jpg"
+  },
+  "worldmap": "worldmap.jpg"
+}
